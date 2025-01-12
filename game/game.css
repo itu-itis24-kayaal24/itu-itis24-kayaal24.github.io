@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+h1 img {
+    object-fit: contain;
+} 
+
+
+.game-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#score-section {
+    font-weight: bold;
+    color: #FFFFFF;
+    border-style: ridge;
+    border-color:#f3b415;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+
+#lives-section {
+    font-weight: bold;
+    color: #FFFFFF;
+    align-items: center;
+    display: flex;
+    border-style: ridge;
+    border-color:#f3b415;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+
+#lives-section img {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+}
+
+#word-display {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#word-display img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 0;
+    object-fit: contain;
+}
+
+#word-display img.correct-letter {
+    width: 70px;
+    height: 70px; 
+    transition: transform 0.5s ease;
+}
+
+.input-section {
+    margin: 20px 0;
+}
+
+#guess-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 150px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f3b415;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f4db3e;
+}
+
+#reset-btn {
+    margin-top: 20px;
+    background-color: #f44336;
+}
+
+#reset-btn:hover {
+    background-color: #d32f2f;
+}
